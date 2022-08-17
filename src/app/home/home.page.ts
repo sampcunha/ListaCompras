@@ -54,3 +54,5 @@ remove(indice) {
   //[(ngModel)]="texto" no input
 
 }
+
+//texte de alteracao!!
