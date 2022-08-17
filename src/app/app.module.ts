@@ -21,11 +21,6 @@ import { Drivers } from '@ionic/storage'
     }),
     AppRoutingModule
   ],
-})
-
-@NgModule({
-  declarations: [AppComponent],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
 })
